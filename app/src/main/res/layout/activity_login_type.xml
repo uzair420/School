@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#EBE4D1"
+    tools:context=".LoginType">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:background="#745353"
+     />
+
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="290dp"
+       android:layout_marginLeft="135dp"
+       >
+
+    <RadioButton
+        android:id="@+id/str_radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARENT"
+        android:textColor="#F50505"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <RadioButton
+        android:id="@+id/str_radio2"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#F50909"
+        android:layout_height="wrap_content"
+        android:text="School"/>
+    <RadioButton
+        android:id="@+id/str_radio3"
+        android:textColor="#F30707"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Child"/>
+
+
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="490dp"
+        android:text="Select Your Choice :"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
