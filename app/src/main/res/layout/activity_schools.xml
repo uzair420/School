@@ -18,5 +18,17 @@
         android:textStyle="bold"
         android:textSize="38dp" />
 
+    <Button
+        android:id="@+id/display_Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginBottom="160dp"
+        android:text="Display Data" />
+
 
 </RelativeLayout>
